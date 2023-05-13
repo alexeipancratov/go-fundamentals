@@ -35,6 +35,7 @@ func (m *menu) add() error {
 			return errors.New("menu item already exists")
 		}
 	}
+
 	data = append(data, menuItem{name: name, prices: make(map[string]float64)})
 	return nil
 }
