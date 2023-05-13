@@ -8,3 +8,4 @@ Topics covered:
 - Branching
 - Organizing programs
 - OOP
+- Concurrency
